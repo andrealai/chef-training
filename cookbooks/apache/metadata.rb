@@ -4,5 +4,8 @@ maintainer_email 'andrea.lai@btinternet.com'
 license 'All Rights Reserved'
 description 'Installs/Configures apache'
 long_description 'Installs/Configures apache'
+supports 'redhat', '>= 7.3'
+issues_url 'https://github.com/andrealai/chef-training/issues'
+source_url 'https://github.com/andrealai/chef-training'
 version '0.1.1'
 chef_version '>= 12.1' if respond_to?(:chef_version)

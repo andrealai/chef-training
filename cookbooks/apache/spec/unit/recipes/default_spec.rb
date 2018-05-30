@@ -10,7 +10,7 @@ describe 'apache::default' do
     end
 
     it 'includes server recipe' do
-      expect(chef_run).to include_recipe ('apache::server')
+      expect(chef_run).to include_recipe('apache::server')
     end
 
     it 'includes the message of the day recipe' do
