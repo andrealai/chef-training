@@ -1,2 +1,5 @@
 # chef-training
-Preparing For Basic Chef Fluency
+
+I created this repo to store the preparation work for the BASIC 
+CHEF FLUENCY BADGE exam.
+
