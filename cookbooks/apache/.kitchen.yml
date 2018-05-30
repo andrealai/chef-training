@@ -17,7 +17,9 @@ platforms:
     image: dokken/centos-7
     pid_one_command: /usr/sbin/init
     privileged: true
-
+    forward:
+      - 49160:80
+      
 suites:
   - name: default
     run_list:
